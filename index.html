@@ -20,28 +20,35 @@
 
   <main>
     <div class="TextArea">
-      <textarea class="text-area" cols="41" rows="6" placeholder="Digite seu texto"></textarea>
-  
-      <div class="warning">
-        <img src="/assets/exclamation.svg" alt="botão de exclamação">
-        <span>Apenas letras minúsculas e sem acento</span>
+      <textarea class="text-area" cols="41" rows="11" placeholder="Digite seu texto"></textarea>
+
+      <div class="warning-buttons">
+        <div class="warning">
+          <img src="/assets/exclamation.svg" alt="botão de exclamação">
+          <span>Apenas letras minúsculas e sem acento</span>
+        </div>
+    
+        <div class="buttons">
+          <button class="btn-encrypt" onClick="btnEncrypt()">
+            Criptografar
+          </button>
+    
+          <button class="btn-decrypt" onClick="btnDecrypt()">
+            Descriptografar
+          </button>
       </div>
   
-      <div class="buttons">
-        <button class="btn-encrypt" onClick="btnEncrypt()">
-          Criptografar
-        </button>
-  
-        <button class="btn-decrypt" onClick="btnDecrypt()">
-          Descriptografar
-        </button>
   
       </div>
     </div>
   
     <div class="MessageArea">
-      <textarea class="message" cols="20" rows="10"></textarea>
-      <button class="btn-copy">Copiar</button>
+      <div class="image-text">
+        <textarea class="message" cols="20" rows="10"></textarea>
+        <h2>Nenhuma mensagem encontrada</h2> 
+        <p>Digite um texto que você deseja criptografar ou descriptografar</p>       
+      </div>
+      <button class="btn-copy" onClick="btnCopy()" >Copiar</button>
     </div>
 
   </main>
