@@ -1,5 +1,10 @@
 const textarea = document.querySelector(".text-area");
 const message = document.querySelector(".message");
+const Copybutton = document.querySelector(".btn-copy");
+const h2 = document.querySelector(".h2");
+const paragraph = document.querySelector(".paragraph");
+const ImageTextArea = document.querySelector(".img-textarea");
+
 const matrizCode = [
   ["a", "ai"],
   ["e", "enter"],
@@ -12,6 +17,13 @@ function btnEncrypt(){
   const textEncrypted = encrypt(textarea.value);
   message.value = textEncrypted;
   textarea.value = "";
+
+  Copybutton.classList.remove('hide');
+  message.classList.remove('hide');
+  h2.classList.add('hide');
+  paragraph.classList.add('hide');
+  ImageTextArea.classList.add('hide');
+
 }
 
 function btnDecrypt(){

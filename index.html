@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="/assets/logo.svg" type="image/x-icon">
 
   <link rel="stylesheet" href="styles.css">
 
@@ -25,7 +25,7 @@
       <div class="warning-buttons">
         <div class="warning">
           <img src="/assets/exclamation.svg" alt="botão de exclamação">
-          <span>Apenas letras minúsculas e sem acento</span>
+          <span>Apenas letras minúsculas e sem acento.</span>
         </div>
     
         <div class="buttons">
@@ -44,11 +44,12 @@
   
     <div class="MessageArea">
       <div class="image-text">
-        <textarea class="message" cols="20" rows="10"></textarea>
-        <h2>Nenhuma mensagem encontrada</h2> 
-        <p>Digite um texto que você deseja criptografar ou descriptografar</p>       
+        <textarea class="message hide" cols="20" rows="10"></textarea>
+        <img class="img-textarea" src="/assets/not-found.png">
+        <h2 class="h2">Nenhuma mensagem encontrada</h2> 
+        <p class="paragraph">Digite um texto que você deseja criptografar ou descriptografar.</p>       
       </div>
-      <button class="btn-copy" onClick="btnCopy()" >Copiar</button>
+      <button class="btn-copy hide" onClick="btnCopy()" >Copiar</button>
     </div>
 
   </main>
