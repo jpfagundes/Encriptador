@@ -14,7 +14,7 @@ Projeto de criptografia e descriptografia desenvolvido para o desafio da Alura. 
 
 - 🔐 Criptografar texto.
 - 🔓 Descriptografar texto.
-- 🔄 Resetar o campo de entrada e a área de saída.
+- 🔄 Copiar o texto criptografado.
 
 ## 💻 Tecnologias Utilizadas
 
@@ -36,4 +36,4 @@ Projeto de criptografia e descriptografia desenvolvido para o desafio da Alura. 
 
 O projeto da landing page está disponível <a href="https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1" target="blank">aqui</a>.
 
-Desenvolvido por João Pedro Fagundes.
+<h1 align="center">  Desenvolvido por João Pedro Fagundes. </h1>
