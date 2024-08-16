@@ -36,4 +36,4 @@ Projeto de criptografia e descriptografia desenvolvido para o desafio da Alura. 
 
 O projeto da landing page está disponível <a href="https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1" target="blank">aqui</a>.
 
-<h1 align="center">  Desenvolvido por João Pedro Fagundes. </h1>
+<h3 align="center">  Desenvolvido por João Pedro Fagundes. </h3>
