@@ -14,7 +14,7 @@ const matrizCode = [
 ];
 
 function btnEncrypt(){
-  const textEncrypted = encrypt(textarea.value);
+  const textEncrypted = encrypt(textarea.value.toLowerCase());
   message.value = textEncrypted;
   textarea.value = "";
 
